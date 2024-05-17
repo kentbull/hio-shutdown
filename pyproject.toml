@@ -1,0 +1,20 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "hio_shutdown"
+version = "0.1.0"
+authors = [{name = "Kent Bull", email = "kent@kentbull.com"}]
+description = "Show graceful shutdown with a simple HTTP server using hio"
+readme = "README.md"
+requires-python = ">3.12"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: Apache Software License",
+    "Operating System :: OS Independent",
+    "Development Status :: 3 - Alpha"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/kentbull/hio-shutdown"
